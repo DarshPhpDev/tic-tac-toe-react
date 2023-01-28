@@ -1,13 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    font-family: 'Indie Flower', cursive !important;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    color: #000;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#board {
+    border-collapse: collapse;
+    border: 1px solid #000;
+    font-size: 4rem;
+    margin: 0 auto;
+}
+
+#board td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+#score {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    border-collapse: collapse;
+}
+
+#score tr:first-child {
+    border-bottom: 1px solid #000;
+}
+
+#score th {
+    width: 100px;
+    padding: 10px 0;
+
+}
+
+.white {
+    background-color: #000 !important;
+}
+
+.player {
+    color: orange;
+}
+
+.computer {
+    color: #0dc6c6;
+}
+
+img {
+    /* background-color: #000; */
+    width: 100px;
+    padding: 5px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+
+.text-center {
+    text-align: center;
 }

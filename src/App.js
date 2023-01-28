@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import Board from './Board';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App text-center">
+      <h1 className="text-center">Tic Tac Toe</h1>
+      <Board />
+      <span>
+        Developed By
+        {' '}
+        {' '}
+        <a className="text-center" target="_blank" href="https://www.facebook.com/freera4bia" rel="noreferrer"> Mustafa Ahmed</a>
+      </span>
     </div>
   );
 }

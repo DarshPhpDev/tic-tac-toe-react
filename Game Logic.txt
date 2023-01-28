@@ -1,0 +1,29 @@
+Tic Tac Toe
+
+Requirements:-
+
+- Board
+- Player
+- Computer
+- turn
+
+Actions:-
+
+- makeMove()
+- checkWinner()
+- counter()
+- restartGame()
+
+
+
+Game Play Logic:-
+
+=> Player
+- Check free slots/cells and play.
+
+
+=> Computer
+- Check free slots/cells.
+- check if computer can win then play and win.
+- check if computer can prevent player form winning then do it.
+- play randomly.
